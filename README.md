@@ -6,6 +6,7 @@ This repository contains the implementation of our paper, *Garment Inertial Deno
 
 - [train_per_imu.py](./train_per_imu.py): trains Location-Specific Denoiser expert modules, each specialized for one IMU placement.
 - [train_fuse.py](./train_fuse.py): trains the Cross-wear Fusion model, initialized from the retained Location-Specific Denoiser checkpoints.
+- [denoise.py](./denoise.py): generates denoised IMU sequences with the trained model.
 - [eval.py](./eval.py): evaluates saved denoised IMU data with MAE.
 
 ## Dataset
