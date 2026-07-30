@@ -1,0 +1,14 @@
+# Install the PyTorch build that matches your CPU/CUDA environment first:
+# https://pytorch.org/get-started/locally/
+# The project was tested with PyTorch 2.5.1 and CUDA 12.4.
+torch>=2.5,<2.6
+torchvision>=0.20,<0.21
+
+numpy>=1.23,<2
+pandas>=2.0,<3
+tqdm>=4.60
+matplotlib>=3.5
+einops>=0.7,<0.9
+timm>=1.0,<1.1
+openpyxl>=3.1,<4
+scipy>=1.10,<2

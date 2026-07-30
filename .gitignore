@@ -1,0 +1,15 @@
+# Dataset and archives
+GIDData/
+
+# Generated training and evaluation artifacts
+results_gid/
+log/
+logs/
+runs/
+
+# Local tooling and Python cache
+.vscode/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
