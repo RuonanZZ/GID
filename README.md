@@ -2,7 +2,7 @@
 
 This repository contains the implementation of our paper, *Garment Inertial Denoiser: Endowing Accurate Motion Capture via Loose IMU Denoiser*, including pretrained weights, training scripts, and evaluation code.
 
-[Paper]() | [Project Page]()
+[Paper](https://arxiv.org/abs/2601.01360) | [Project Page]()
 
 - [train_per_imu.py](./train_per_imu.py): trains Location-Specific Denoiser expert modules, each specialized for one IMU placement.
 - [train_fuse.py](./train_fuse.py): trains the Cross-wear Fusion model, initialized from the retained Location-Specific Denoiser checkpoints.
