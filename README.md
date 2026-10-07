@@ -11,7 +11,7 @@ This repository contains the implementation of our paper, *Garment Inertial Deno
 
 ## Dataset
 
-The GID dataset is available at:
+The GarMoCap dataset is available at:
 
 Google Drive: https://drive.google.com/drive/folders/1tp6yjy3AbLiOAsud96pyHmdJqPSqFo6R?usp=sharing
 
